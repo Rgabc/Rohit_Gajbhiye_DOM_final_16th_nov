@@ -32,7 +32,7 @@ if(resevation.includes(date)&&resevation2.includes(time)){
   alert("select other date")
 }
 else{
-  alert("click on confirm reservation and go to  profile page ")
+  alert("click on confirm reservation and click on  profile page ")
   // const res={date,time}
   // await localStorage.setItem('booking', JSON.stringify(res));
   

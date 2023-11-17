@@ -17,7 +17,7 @@ console.log(storedUsers)
       console.log(storedUsers)
       // You can redirect to another page or perform other actions after successful login
      // window.location.href="./reservation/index.html"; // Replace with the actual path of your profile
-     const url="http://127.0.0.1:5500/profile/index.html"
+     const url="../profile/index.html"
      window.open(url, '_blank');
     
     } else { 

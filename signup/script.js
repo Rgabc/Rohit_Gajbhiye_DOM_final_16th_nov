@@ -18,6 +18,6 @@ async function submitData(event){
      
      
       await localStorage.setItem('loginData', JSON.stringify(profileData));
-      const url="http://127.0.0.1:5500/login/index.html"
+      const url="../login/index.html"
       window.open(url, '_blank');
 }
